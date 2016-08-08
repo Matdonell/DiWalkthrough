@@ -51,7 +51,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\App6.cs" />
     <Compile Include="Code\BLLayer\UserManager.cs" />
     <Compile Include="Code\DbLayer\User.cs" />
     <Compile Include="Code\DbLayer\UserRepository.cs" />
@@ -61,6 +60,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

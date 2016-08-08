@@ -15,7 +15,7 @@ Constructor injection is the most common way of doing dependency injection.
   The developer is required to build all the dependencies in advance, even if not required
 
 ## Properties
-Property injection is supported in multiple frameworks like Unity, MEF, Autofact, etc... 
+Property injection is supported in multiple frameworks like Unity, MEF, Autofac, etc... 
 
 ### The good
 * Less boilerplate code in each class

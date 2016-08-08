@@ -29,9 +29,10 @@ namespace DiWalkthrough_008.Inversion_Of_Control
 
             containerBuilder.RegisterType<UserManager>()
                             .As<IUserManager>();
+            //Think of the following line coming from a config file.
             containerBuilder.RegisterType<FakeUserRepository>()
                             .As<IUserRepository>();
-
+            
             return containerBuilder.Build();
         }
     }

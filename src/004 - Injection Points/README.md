@@ -26,3 +26,6 @@ Property injection is supported in multiple frameworks like Unity, MEF, Autofac,
 * Initial unit tests failure happens at runtime instead of compile time when changing a class
 * Outside world can alter your dependencies
 * Requires good team work and clear process to avoid "The bad"
+
+##### To the next chapter
+[005 - Injection Overrides](../005 - Injection Overrides)  

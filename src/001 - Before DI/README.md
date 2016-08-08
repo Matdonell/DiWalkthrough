@@ -12,3 +12,6 @@ You decide exactly which implementation will be used.
   * When changing the arguments of the constructor(s)
   * Does not push to use interfaces
   * Does not push to seperate state and logic
+
+##### To the next chapter
+[002 - Manual DI](../002 - Manual DI)  

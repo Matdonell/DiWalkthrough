@@ -14,3 +14,6 @@ developer pushes units of logic into classes.
   * If the same instance of a dependency is to be used in nested dependency
   * When changing the arguments of the constructor(s)
   * Does not push to seperate state and logic
+
+##### To the next chapter
+[003 - DI Framework](../003 - DI Framework)  

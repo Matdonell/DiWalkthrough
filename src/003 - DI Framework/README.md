@@ -15,3 +15,7 @@ By using dependency injection framework(s) (usualy 1 at a time!) comes quite a f
 * Harder to know what's going on  
   Harder to know why one dependency and not an other is used
 * A small performance hit when resolving units of logic
+
+
+##### To the next chapter
+[004 - Injection Points](../004 - Injection Points)  

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16DE359C-B928-469B-914A-BC7B28A15341}</ProjectGuid>
+    <ProjectGuid>{8193F3B2-DE81-4593-950F-6350E588289E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DiWalkthrough_010.Open_Generics</RootNamespace>
-    <AssemblyName>DiWalkthrough.010.Open.Generics</AssemblyName>
+    <RootNamespace>DiWalkthrough_005.Factories</RootNamespace>
+    <AssemblyName>DiWalkthrough.005.Factories</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -51,11 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\BLLayer\CommandDispatcher.cs" />
-    <Compile Include="Code\BLLayer\Commands\CreateUserCommand.cs" />
-    <Compile Include="Code\BLLayer\ICommandHandler.cs" />
-    <Compile Include="Code\BLLayer\CommandHandlers\CreateUserCommandHandler.cs" />
-    <Compile Include="Code\DbLayer\IUserRepository.cs" />
+    <Compile Include="Code\BLLayer\UserManager.cs" />
     <Compile Include="Code\DbLayer\User.cs" />
     <Compile Include="Code\DbLayer\UserRepository.cs" />
     <Compile Include="Program.cs" />

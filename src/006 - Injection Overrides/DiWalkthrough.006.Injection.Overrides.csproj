@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16DE359C-B928-469B-914A-BC7B28A15341}</ProjectGuid>
+    <ProjectGuid>{78E49D94-7C18-4161-86DB-C731A0E0B36D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DiWalkthrough_010.Open_Generics</RootNamespace>
-    <AssemblyName>DiWalkthrough.010.Open.Generics</AssemblyName>
+    <RootNamespace>DiWalkthrough_006.Injection_Overrides</RootNamespace>
+    <AssemblyName>DiWalkthrough.006.Injection.Overrides</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -51,13 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Code\BLLayer\CommandDispatcher.cs" />
-    <Compile Include="Code\BLLayer\Commands\CreateUserCommand.cs" />
-    <Compile Include="Code\BLLayer\ICommandHandler.cs" />
-    <Compile Include="Code\BLLayer\CommandHandlers\CreateUserCommandHandler.cs" />
-    <Compile Include="Code\DbLayer\IUserRepository.cs" />
+    <Compile Include="Code\BLLayer\UserManager.cs" />
     <Compile Include="Code\DbLayer\User.cs" />
     <Compile Include="Code\DbLayer\UserRepository.cs" />
+    <Compile Include="Code\Autofac\PropertyInjectorLogic.cs" />
+    <Compile Include="Code\Autofac\Wrapper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -9,6 +9,9 @@ In software engineering, dependency injection is a software design pattern that 
 ### What is Inversion Of Control
 Inversion of control (IoC) is a programming technique, expressed here in terms of object-oriented programming, in which object coupling is bound at run time by an assembler object and is typically not known at compile time using static analysis.
 
+### What is the Service Locator Pattern
+The service locator pattern is a design pattern used in software development to encapsulate the processes involved in obtaining a service with a strong abstraction layer. This pattern uses a central registry known as the "service locator", which on request returns the information necessary to perform a certain task (Google description). Usualy looks like ``` ServiceLocator.GetService(typeof(ServiceType))```.
+
 ### What did we gain from it
 Here's a few good things that came out of it: 
 * Easier to replace static methods by instances (don't need to instanciate tools by hand)

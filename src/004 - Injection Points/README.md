@@ -8,6 +8,7 @@ Constructor injection is the most common way of doing dependency injection.
 * All DI frameworks support it
 * Forces unit tests to supply all dependencies
 * Clear definition of required dependencies
+* If used in libraries, makes them DI ready.
 
 ### The bad
 * Forces to write boilerplate code in the constructor to assign private members

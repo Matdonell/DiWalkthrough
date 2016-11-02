@@ -1,4 +1,4 @@
-﻿# Dependenty injection Frameworks
+﻿# Dependency injection Frameworks
 By using dependency injection framework(s) (usualy 1 at a time!) comes quite a few advantages. But, there will also be costs like adding complexity.
 
 ### The good

@@ -1,4 +1,4 @@
-﻿# Manual Dependenty injection
+﻿# Manual Dependency injection
 By using the constructor's parameters to receive different units of logic, the 
 developer pushes units of logic into classes.
 
@@ -13,7 +13,7 @@ developer pushes units of logic into classes.
 * Still hard to refactor
   * If the same instance of a dependency is to be used in nested dependency
   * When changing the arguments of the constructor(s)
-  * Does not push to seperate state and logic
+* Does not push to seperate state and logic
 
 ##### To the next chapter
 [003 - DI Framework](../003 - DI Framework)  

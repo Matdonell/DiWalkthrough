@@ -28,5 +28,8 @@ Property injection is supported in multiple frameworks like Unity, MEF, Autofac,
 * Outside world can alter your dependencies
 * Requires good team work and clear process to avoid "The bad"
 
+## Mix and match
+Most DI Frameworks will allow both constructor and property injection at the same time.
+
 ##### To the next chapter
 [005 - Factories](../005 - Factories)  
